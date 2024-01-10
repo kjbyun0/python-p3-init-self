@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
 
 class Dog:
-    pass
+    def __init__(self, name, breed='Mutt'):
+        self.name = name
+        self.breed = breed
+
+
+# fido = Dog('fido')
+# print(fido.name, fido.breed,)
+
+# snoopy = Dog('snoopy', 'beagle')
+# print(snoopy.name, snoopy.breed)
